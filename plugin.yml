@@ -1,0 +1,26 @@
+name: DevilCore
+version: 1.0.0
+main: net.devilcraft.core.Main
+api-version: 1.14
+depend: [WorldGuardEvents, WorldGuard, WorldEdit, Vault]
+commands:
+  coreadmin:
+    description: Enters/Leaves Admin Mode
+    usage: "Usage: /coreadmin"
+    permission: devil.adminmode
+  outpost:
+    description: Manages outposts
+    usage: "Usage: /outpost [banner] [OutpostName] [Banner Name]"
+    permission: devil.outpost
+  setbanner:
+    description: Sets Banner Colour
+    usage: "Usage: /setbanner [0, 1, 2]"
+    permission: devil.setbanner
+  level:
+    description: Levels Up
+    isage: "Usage: /level [lvlup, addexp] [number]"
+    permission: devil.lvlup
+  shop:
+    description: Opens Shop
+    isage: "Usage: /shop"
+    permission: devil.shop
